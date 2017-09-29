@@ -1,11 +1,30 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px dotted darkred;
+    font-family: sans-serif;
 }
 
 #wrapper{
-    width: 970px;
-    height: 970px;
+    width: 1200px;
     margin: 0px auto;
 }
+
+ h2, h1, h3 {
+    text-align: center;
+ }
+
+ #large_box {
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: lightblue;
+    width: 1200px;
+    height: 300px; 
+ }
+
+ #large_box div {
+    background-color: blue;
+    display: inline-block;
+    width: 350px;
+    height: 130px;
+    margin: 60px 20px;
+ }
